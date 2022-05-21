@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+        <title>Frontend Mentor | Intro component with sign up form</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <main id="titles">
+            <h1>Learn to code by watching others</h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                understanding how developers think is invaluable.
+            </p>
+        </main>
+        <div id="rightDiv">
+            <div id="top">
+                <p><span id="bold">Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+            <form id="form">
+                <div class="error-icon">
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name" autocomplete="name" />
+                    <span class="d-none"><img class="img-error" src="images/icon-error.svg" alt="icon error" /></span>
+                </div>
+                <p class="txt-error d-none" id="firstName-error">First name cannot be empty</p>
+                <div class="error-icon">
+                    <input
+                        type="text"
+                        name="lastName"
+                        id="lastName"
+                        placeholder="Last Name"
+                        autocomplete="additional-name"
+                    />
+                    <span class="d-none"><img class="img-error" src="images/icon-error.svg" alt="icon error" /></span>
+                </div>
+                <p class="txt-error d-none" id="lastName-error">Last Name cannot be empty</p>
+                <div class="error-icon">
+                    <input type="text" name="email" id="email" placeholder="Email Address" autocomplete="email" />
+                    <span class="d-none"><img class="img-error" src="images/icon-error.svg" alt="icon error" /></span>
+                </div>
+                <p class="txt-error d-none" id="email-error">Looks like this is not an email</p>
+                <div class="error-icon">
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Password"
+                        autocomplete="new-password"
+                        title="Your password must contain at least 1 uppercase letter, 1 lowercase letter, 1 number, 1 special character and 8 digits."
+                    />
+                    <span class="d-none"><img class="img-error" src="images/icon-error.svg" alt="icon error" /></span>
+                </div>
+                <p class="txt-error d-none" id="empty-password-error">Password cannot be empty</p>
+                <p class="txt-error d-none" id="password-error">Password not strong enough</p>
+                <button>Claim your free trial</button>
+                <p id="terms">
+                    By clicking the button, you are agreeing to our <span><a href="#">Terms and Services</a></span>
+                </p>
+            </form>
+        </div>
+
+        <footer class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br />Coded by
+            <a href="https://github.com/mveryy">Matheus Verissimo</a>.
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
