@@ -10,7 +10,7 @@
 
 body {
     background-color: hsl(0, 100%, 74%);
-    background-image: url(/intro-component-with-signup-form-master/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-image: url(/Intro-component-with-sign-up-form/images/bg-intro-desktop.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,7 +175,7 @@ footer a {
         height: max-content;
         margin-top: 6em;
         flex-direction: column;
-        background-image: url(/intro-component-with-signup-form-master/intro-component-with-signup-form-master/images/bg-intro-mobile.png);
+        background-image: url(/Intro-component-with-sign-up-form/images/bg-intro-mobile.png);
         overflow-x: hidden;
     }
 
