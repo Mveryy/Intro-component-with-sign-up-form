@@ -6,7 +6,10 @@ Esta é uma solução para o [Intro component with sign-up form](https://www.fro
 
 ![App Screenshot Desktop](screenshots/desktop.png)
 ![App Screenshot Desktop](screenshots/desktop-active.png)
-![App Screenshot Mobile](screenshots/mobile.png)
+
+<p align="center">
+<img width="30%" src="screenshots/mobile.png">
+</p>
 
 ## Links
 
